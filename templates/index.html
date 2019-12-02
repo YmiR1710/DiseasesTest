@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diseases Indication</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index_style.css') }}">
+</head>
+<body>
+<div class="container">
+    <form method="post">
+        <b class="question">{{ question }}</b>
+        <div class="labels">
+            <input id="input1" type="radio" name="answer" value="1">
+            <label for="input1">Yes</label>
+            <input id="input2" type="radio" name="answer" value="2">
+            <label for="input2">No</label>
+            <input id="input3" type="radio" name="answer" value="3">
+            <label for="input3">Not sure</label>
+        </div>
+        <input id="submit_button" type="submit" name="submit_button">
+    </form>
+</div>
+</body>
+</html>

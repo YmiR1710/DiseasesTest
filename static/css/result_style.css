@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", serif;
+    font-size: 200%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1{
+    color: white;
+}
+
+.graph{
+    border-left: solid white 4px;
+    margin-left: 5.1%;
+}
